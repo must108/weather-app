@@ -1,0 +1,128 @@
+$blue: #7bafd4;
+$white: #fff;
+$bg: #333333;
+$black: #000000;
+$gray: #36454f;
+$red: #d47b83;
+$purple: #7b83d4;
+$darkpurple: #555fc7;
+
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+body {
+    background-color: $bg;
+    color: $white;
+    font-family: "Inter", sans-serif;
+    display: flex;
+    min-height: 100vh;
+    margin: 0;
+    align-items: center;
+    justify-content: center;
+}
+
+#wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    flex-direction: column;
+    opacity: 0;
+    transition: 1s;
+}
+
+#title {
+     font-size: 50px;
+     font-weight: bold;
+     padding-bottom: 20px;
+     opacity: 1;
+     transition: 1s
+}
+
+#search {
+    border: none;
+    background: none;
+    outline: none;
+    color: inherit;
+    font-size: 32px;
+    height: 40px;
+    padding: 5px 5px 10px;
+    border-bottom: 1px solid;
+    text-align: center;
+    opacity: 1;
+    transition: 1s;
+}
+
+#weather-cont {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#weather-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 0px;
+    height: 0px;
+    background-color: $blue;
+    margin-top: 50px;
+    transition: 1s;
+    border-radius: 25px;
+} 
+
+#city-name {
+    color: $gray;
+    font-size: 19px;
+    font-weight: bold;
+    margin: 0;
+    opacity: 0;
+    transition: 0.5s;
+}
+
+#description {
+    color: $gray;
+    text-transform: lowercase;
+    font-weight: bold;
+    opacity: 0;
+    transition: 0.5s;
+    font-size: 1.1em;
+}
+
+#image {
+    opacity: 0;
+    transition: 0.5s;
+}
+
+#temper {
+    color: $black;
+    font-size: 65px;
+    margin: 0;
+    opacity: 0;
+    transition: 0.5s;
+}
+
+#tempbutt1,
+#tempbutt2 {
+    border: none;
+    margin-top: 0px;
+    background-color: $purple;
+    color: $white;
+    padding: 10px;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+
+#tempbutt1:hover,
+#tempbutt2:hover {
+    background-color: $darkpurple;
+}
+
+#error {
+    font-size: 2.5em;
+    margin-top: 0.5em;
+    color: $red;
+    opacity: 0;
+    transition: 0.5s;
+}
