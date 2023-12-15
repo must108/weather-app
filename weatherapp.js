@@ -1,7 +1,7 @@
 const title = document.getElementById("title");
 const input = document.querySelector("input");
 const cityname = document.getElementById("city-name");
-const apiKey = '5b47093743b67e63493daa2d9ec84e1c';
+const apiKey = 'YOUR_WEATHER_KEY';
 const desc = document.getElementById("description");
 const temp = document.getElementById("temper");
 const imageElem = document.getElementById("image");
@@ -14,7 +14,7 @@ const searching = document.getElementById("search");
 let currCityName;
 let inputVal;
 let time = 0;
-const mapKey = `AIzaSyB3Ids6QSdl2jhu15wlAPVe7hRIFtoGnVk`;
+const mapKey = `YOUR_GOOGLE_MAPS_KEY`;
 
 setTimeout(function() {
     makeVisible();
