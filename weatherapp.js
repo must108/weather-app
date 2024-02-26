@@ -1,21 +1,3 @@
-const title = document.getElementById("title");
-const input = document.querySelector("input");
-const cityname = document.getElementById("city-name");
-const apiKey = 'YOUR_WEATHER_KEY';
-const desc = document.getElementById("description");
-const temp = document.getElementById("temper");
-const imageElem = document.getElementById("image");
-const box = document.getElementById("weather-box");
-const button1 = document.getElementById("tempbutt1");
-const button2 = document.getElementById("tempbutt2");
-const error1 = document.getElementById("error");
-const whole = document.getElementById("wrapper");
-const searching = document.getElementById("search");
-let currCityName;
-let inputVal;
-let time = 0;
-const mapKey = `YOUR_GOOGLE_MAPS_KEY`;
-
 setTimeout(function() {
     makeVisible();
 }, 500);
@@ -224,3 +206,21 @@ function showError(error){
             break;
     }
 }
+
+const title = document.getElementById("title");
+const input = document.querySelector("input");
+const cityname = document.getElementById("city-name");
+const apiKey = 'YOUR_WEATHER_KEY';
+const desc = document.getElementById("description");
+const temp = document.getElementById("temper");
+const imageElem = document.getElementById("image");
+const box = document.getElementById("weather-box");
+const button1 = document.getElementById("tempbutt1");
+const button2 = document.getElementById("tempbutt2");
+const error1 = document.getElementById("error");
+const whole = document.getElementById("wrapper");
+const searching = document.getElementById("search");
+let currCityName;
+let inputVal;
+let time = 0;
+const mapKey = `YOUR_GOOGLE_MAPS_KEY`;
