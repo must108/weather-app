@@ -210,7 +210,7 @@ function showError(error){
 const title = document.getElementById("title");
 const input = document.querySelector("input");
 const cityname = document.getElementById("city-name");
-const apiKey = 'YOUR_WEATHER_KEY';
+const apiKey = 'c15540ff0d21491e51edee831cc46618';
 const desc = document.getElementById("description");
 const temp = document.getElementById("temper");
 const imageElem = document.getElementById("image");
@@ -223,4 +223,4 @@ const searching = document.getElementById("search");
 let currCityName;
 let inputVal;
 let time = 0;
-const mapKey = `YOUR_GOOGLE_MAPS_KEY`;
+const mapKey = 'AIzaSyB3Ids6QSdl2jhu15wlAPVe7hRIFtoGnVk';
