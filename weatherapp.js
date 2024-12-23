@@ -210,7 +210,7 @@ function showError(error){
 const title = document.getElementById("title");
 const input = document.querySelector("input");
 const cityname = document.getElementById("city-name");
-const apiKey = 'c15540ff0d21491e51edee831cc46618';
+const apiKey = 'YOUR_WEATHER_KEY';
 const desc = document.getElementById("description");
 const temp = document.getElementById("temper");
 const imageElem = document.getElementById("image");
